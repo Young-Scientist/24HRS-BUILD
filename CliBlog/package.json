@@ -1,7 +1,7 @@
 {
-  "name": "Node_TS_API_Setup",
+  "name": "CliBlog",
   "version": "1.0.0",
-  "description": "Node_TS_API_Setup",
+  "description": "CliBlog",
   "main": "src/app.ts",
   "scripts": {
     "dev": "nodemon src/app.ts"
