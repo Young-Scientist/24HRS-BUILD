@@ -1,0 +1,40 @@
+{
+  "name": "Node_TS_API_Setup",
+  "version": "1.0.0",
+  "description": "Node_TS_API_Setup",
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "nodemon src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zubs/Node_TS_Setup.git"
+  },
+  "keywords": [],
+  "author": "Zubs <zubairidrisaweda@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zubs/Node_TS_Setup/issues"
+  },
+  "homepage": "https://github.com/Zubs/Node_TS_Setup#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.12",
+    "@types/listr": "^0.14.3",
+    "@types/morgan": "^1.9.2",
+    "nodemon": "^2.0.9",
+    "ts-node": "^10.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^3.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "listr": "^0.14.3",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0",
+    "rotating-file-stream": "^2.1.5",
+    "terminal-link": "^3.0.0"
+  }
+}
