@@ -6,5 +6,6 @@
 ### Teams
 * Team Name:
 	* [Zubair Idris Aweda](https://github.com/Zubs)
+	* [Timilehin Omolana E.](https://github.com/tee-stark)
 
 	
