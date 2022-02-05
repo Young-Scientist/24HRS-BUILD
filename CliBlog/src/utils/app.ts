@@ -6,8 +6,6 @@ const appRoute = require('../routes/api/appRoutes')
 import path from 'path'
 import { Logger } from './logger'
 // import terminalLink from 'terminal-link'
-import chalk from 'chalk'
-
 /**
  * Set up routes and 404
  */

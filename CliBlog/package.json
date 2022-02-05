@@ -4,14 +4,16 @@
   "description": "CliBlog",
   "main": "src/app.ts",
   "scripts": {
-    "dev": "nodemon src/app.ts"
+    "dev": "nodemon src/app.ts",
+    "build": "tsc",
+    "crazy": "npm run build && cd dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Zubs/Node_TS_Setup.git"
   },
   "keywords": [],
-  "author": "Zubs <zubairidrisaweda@gmail.com>",
+  "author": "Zubs <zubairidrisaweda@gmail.com>, Jerry <faluyjeremiah2018@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Zubs/Node_TS_Setup/issues"
@@ -26,6 +28,8 @@
     "ts-node": "^10.0.0"
   },
   "dependencies": {
+    "@types/uuid": "^8.3.4",
+    "@types/yargs": "^17.0.8",
     "body-parser": "^1.19.0",
     "chalk": "^3.0.0",
     "cors": "^2.8.5",
@@ -36,6 +40,8 @@
     "morgan": "^1.10.0",
     "rotating-file-stream": "^2.1.5",
     "terminal-link": "^3.0.0",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "uuid": "^8.3.2",
+    "yargs": "^17.3.1"
   }
 }
