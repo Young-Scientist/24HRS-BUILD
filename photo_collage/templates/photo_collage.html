@@ -1,0 +1,17 @@
+{% extends 'base.html'%}
+
+
+{%block title%}
+    <title>Your Results</title>
+{%endblock%}
+
+
+{%block upload_form%}
+        <!--Div for Background-->
+        <div class="bf text-center">
+            <h1 class="secondLine"> Your Collage is Ready. Feel free to download it.</h1>
+            <img class="centeredL" src="{{url_for('static', filename='saved.jpg')}}" alt="Loading" width="500" height="500">
+        </div>
+{% endblock %}
+
+

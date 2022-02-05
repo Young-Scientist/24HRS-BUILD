@@ -1,0 +1,39 @@
+{% extends 'base.html'%}
+
+
+{%block title%}
+    <title>Python Flask Multiple Files Upload Example</title>
+{%endblock%}
+
+
+{%block upload_form%}
+    <form method="post" action="/" enctype="multipart/form-data">
+        <!--Div for Background-->
+        <div class="bg text-center">
+            <!--Div for Centered Text & Input-->
+            <div class="centered">
+                <p class="firstLine"> 8 &nbsp; E &nbsp; M &nbsp; A &nbsp; G &nbsp; E &nbsp; S &nbsp;</p>
+                <p class="secondLine">What word best describe the images selected?</p>
+                <div>
+                    {% with messages = get_flashed_messages() %}
+                        {% if messages %}
+                            {% for message in messages %}
+                                <p style="color: wheat;">{{ message }}</p>
+                            {% endfor %}
+                         {% endif %}
+                    {% endwith %}
+                </div>
+                <p> <input class="InputStyle" placeholder="Best Word" style="font-family:Arial, FontAwesome" 
+                    type="text" name="image_text" id="image_text" autocomplete="off" required> </p>
+                <p> <input type="file" class="form-control-file" id="exampleFormControlFile1" name="files[]" multiple="true" autocomplete="off" required> </p>
+                <p> <button type="submit" class="btn btn-primary">Create Photo Collage</button> </p>
+            </div>        
+        </div>
+    </form>
+    <!-- {% block image %}
+    <div class="bg text-center">
+        <img src="{{url_for('static', filename='saved.jpg')}}" alt="Loading" width="300" height="300">
+    </div>
+{% endblock %} -->
+{%endblock%}
+
