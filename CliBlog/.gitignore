@@ -1,0 +1,15 @@
+# Env files
+.env
+.env.dev
+
+node_modules/
+
+package-lock.json
+
+# Log files
+log/
+
+
+# yarn
+yarn.lock
+yarn-error.log
